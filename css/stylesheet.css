@@ -1,0 +1,31 @@
+/* Define o background da tabela, coloca os cantos redondos, define a distância entre o conteúdo e as bordas e a largura da tabela e as bordas ficam mais grossas */
+table, td, th {
+    border: 3px solid black;
+}
+table {
+	background: #13547a;
+	border-radius: 25px;
+    padding: 20px;
+    width: 45%;
+}
+/* Define a posição da tabela da esquerda e centra o texto  */
+.TabelaEsquerda {
+
+	float: left;
+	margin-left: 2%;
+	text-align: center;
+}
+/* Define a posição da tabela da direita e centra o texto */
+.TabelaDireita {
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+}
+/* Nova class para adicionar novas linhas */
+.espaço {
+	height: 10px;
+}
+/* Define o background do site para um degrade */
+body {
+	background: linear-gradient(#F5A141, #F6C141);
+}
